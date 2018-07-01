@@ -2,8 +2,16 @@
 <html>
     <head>
         <title>WayOut | Homepage</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
         <link rel="shortcut icon" type="image/x-icon" href="images/Logo.png">
         <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script>
+            $(document).ready(function(){
+              $('.slider').bxSlider();
+            });
+          </script>
     </head>
     <body>
         <div id="wrapper">
@@ -50,8 +58,12 @@
                     </nav>
                 </div>
                 <!-- Home Slider -->
-                <div id="slider">
-                    
+                <div class="slider">
+                   <img src="images/SliderFive.jpg" alt="">
+                   <img src="images/SliderFour.jpg" alt=""> 
+                   <img src="images/SliderThree.jpg" alt="">
+                   <img src="images/SliderTwo.jpg" alt="">
+                   <img src="images/SliderOne.jpg" alt="">
                 </div>
             </div>
         </div>

@@ -120,3 +120,6 @@ nav a:hover {
     transition: all .7s ease;
 }
 /* Slider Part */
+.slider{
+   padding:10px;
+}
