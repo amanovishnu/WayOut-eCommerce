@@ -78,3 +78,11 @@ nav a:hover {
     transition: all .5s ease;
     font-size: 14px;
 }
+.carousel-caption {
+    color: black;
+    font-weight: bolder;
+}
+.carousel-item img{
+    height: 300px;
+    width: 100%;
+}
