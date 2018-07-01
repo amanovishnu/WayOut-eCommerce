@@ -81,10 +81,16 @@
     margin-top: 20px;
 }
 /* This is For List Styling */
-#user-menu li{
+#user-menu li {
     text-decoration: none;
     float: left;
     width: 140px;
     text-align: center;
     list-style: none;
+    font-size: 25px;
+    border-left: 1px solid black;
+}
+#user-menu li:hover {
+    font-size: 30px;
+    transition: all .5s ease;
 }
