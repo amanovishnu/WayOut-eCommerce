@@ -56,3 +56,35 @@
     padding: 20px;
     margin-left: 50px;
 }
+.search-area {
+    width: 630px;
+    height: 50px;
+    background: #fff;
+    border: none;
+    border-radius: 10px;
+    float: left;
+    padding-left: 15px;
+}
+.search-btn{
+    width: 100px;
+    height: 52px;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    background: brown;
+    margin-left: -100px;
+}
+/* User-Menu Area */
+#user-menu {
+    width: 300px;
+    float: right;
+    margin-top: 20px;
+}
+/* This is For List Styling */
+#user-menu li{
+    text-decoration: none;
+    float: left;
+    width: 140px;
+    text-align: center;
+    list-style: none;
+}
