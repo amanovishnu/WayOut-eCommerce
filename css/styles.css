@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+#subheader{
+    font-weight: 500;
+    font-size: 2vh;
+    color: white;
+}
+#subheader a{
+    float: right;
+    padding-right: 25px;
+    color: white;
+    text-decoration: none;
+}
+#subheader p {
+    padding-left: 35px;
+}
+/* Main Header */
+#mainheader {
+    display: flex;
+}
+#logo {
+    width: 250px;
+    /* background: black; */
+    padding: 15px 25px 20px 35px;
+    /* padding-left: 25px;  */
+    font-size: 50px;
+    font-family: 'Pacifico', cursive;
+    color: black;
+}
+#searchbar {
+    padding-top: 28px;
+    padding-left: 50px;
+    float: right;
+    width: 750px;
+}
+.form-control {
+    height: 50px;
+    border: 2px solid black;
+    border-radius: px;
+}
+#cart {
+    width: 350px;
+    padding: 30px 30px 25px 30px;
+}
+#cart a{
+    float: right;
+    padding-right: 30px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-weight: 500;
+    
+}
+#cart a:nth-child(2) {
+    border-left: 5px solid black;
+    border-right: 5px solid black; 
+}
+#cart a:hover {
+    transition: all .5s ease;
+    color: white;
+}
+#navigation {
+    padding: 0px 10px 10px 15px;
+}
+nav a {
+    color: black;
+    padding-left: 25px;
+    font-size: 14px;
+    font-weight: 500;    
+}
+nav a:hover {
+    color: gray;
+    transition: all .5s ease;
+    font-size: 14px;
+}
+.carousel-caption {
+    color: black;
+    font-weight: bolder;
+}
+.carousel-item img{
+    height: 300px;
+    width: 100%;
+}
