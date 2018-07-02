@@ -50,18 +50,21 @@ body {
 }
 #cart a{
     float: right;
-    /* padding-right: 30px; */
-    font-size: 20px;
-    text-decoration: none;
     color: black;
-    padding: 5px 15px;
-    font-weight: 400;
+    /* padding-right: 30px; */
+    font-size: 15px;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-weight: 500;
     
 }
 #cart a {
-    border: 3px solid black;
+    background: white;
+   
+    border: 1px solid rgb(241, 237, 237);
     margin: 2px 5px 0px 5px;
-    border-radius: 10px;
+    border-radius: 3px;
+    
     /* border-right: 5px solid black;  */
 }
 #cart a:hover {
@@ -82,11 +85,37 @@ nav a:hover {
     transition: all .5s ease;
     font-size: 14px;
 }
-.carousel-caption {
-    color: black;
-    font-weight: bolder;
-}
+
 .carousel-item img{
     height: 400px;
     width: 100vw;
 }
+#categories {
+    width: 100%;
+    /* margin: auto; */
+}
+#categoryheading {
+    padding: 0px 10px;
+    border: px solid black;
+    border-left: 50px dashed orangered;
+    border-right: 50px dashed orangered;
+    display: block;
+    text-align: center;
+    margin: 20px 33px 20px 33px;
+    color: orangered;
+    font-weight: bolder;
+
+}
+#categorybox {
+    width: 94%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+#categorybox img{
+    border: 2px solid black;
+    width: 250px;
+    height: 300px;
+    /* overflow: hidden;
+    position: relative; */
+}
+
