@@ -95,14 +95,14 @@ nav a:hover {
     /* margin: auto; */
 }
 #categoryheading {
-    padding: 0px 10px;
+    padding: 0px 10px 0px 10px;
     border: px solid black;
-    border-left: 50px dashed orangered;
-    border-right: 50px dashed orangered;
+    border-left: 30px dashed orangered;
+    border-right: 1050px dashed orangered;
     display: block;
     text-align: center;
     margin: 20px 33px 20px 33px;
-    color: orangered;
+    color: black;
     font-weight: bolder;
 
 }
