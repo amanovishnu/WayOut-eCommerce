@@ -16,7 +16,7 @@ body {
     text-decoration: none;
 }
 #subheader p {
-    padding-left: 35px;
+    padding-left: 25px;
 }
 /* Main Header */
 #mainheader {
@@ -24,7 +24,7 @@ body {
     flex-wrap: wrap;
 }
 #logo {
-    width: 250px;
+    width: 230px;
     /* background: black; */
     padding: 15px 25px 20px 35px;
     /* padding-left: 25px;  */
@@ -44,22 +44,25 @@ body {
     border-radius: px;
 }
 #cart {
-    width: 350px;
+    width: 360px;
     padding: 30px 30px 25px 30px;
+    /* margin-right: -100px; */
 }
 #cart a{
     float: right;
-    padding-right: 30px;
+    /* padding-right: 30px; */
     font-size: 20px;
     text-decoration: none;
     color: black;
-    padding: 10px;
-    font-weight: 500;
+    padding: 5px 15px;
+    font-weight: 400;
     
 }
-#cart a:nth-child(2) {
-    border-left: 5px solid black;
-    border-right: 5px solid black; 
+#cart a {
+    border: 3px solid black;
+    margin: 2px 5px 0px 5px;
+    border-radius: 10px;
+    /* border-right: 5px solid black;  */
 }
 #cart a:hover {
     transition: all .5s ease;
