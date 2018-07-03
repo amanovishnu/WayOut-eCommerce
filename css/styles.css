@@ -3,6 +3,10 @@
 }
 body {
     margin: 0;
+    min-width: 1349px;
+}
+.maincontainer{
+    width: 100%;
 }
 #subheader{
     font-weight: 500;
@@ -88,7 +92,7 @@ nav a:hover {
 
 .carousel-item img{
     height: 400px;
-    width: 100vw;
+    width: 1350px;
 }
 #categories {
     width: 100%;
