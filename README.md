@@ -1,2 +1,2 @@
 # WayOut-eCommerce
-![MainPage](Snapshots/Snapshot14.PNG)
+![MainPage](Snapshots/Snapshot14.png)
