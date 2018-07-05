@@ -3,7 +3,7 @@
 }
 body {
     margin: 0;
-    min-width: 1349px;
+    /* min-width: 1355px; */
 }
 .maincontainer{
     width: 100%;
@@ -94,32 +94,56 @@ nav a:hover {
     height: 400px;
     width: 1350px;
 }
-#categories {
+#heading-block {
     width: 100%;
-    /* margin: auto; */
+    height: auto;
+    float: left;
+    color:orangered;
+    font-size: 22px;
+    margin: 0px 0px 10px;
 }
-#categoryheading {
-    padding: 0px 10px 0px 10px;
-    border: px solid black;
-    border-left: 30px dashed orangered;
-    border-right: 1050px dashed orangered;
-    display: block;
-    text-align: center;
-    margin: 20px 33px 20px 33px;
-    color: black;
-    font-weight: bolder;
+/* Cateogory Boxes Main */
+#categoriescontainer {
+    width: 95%;
+    margin:  20px auto;
 
 }
-#categorybox {
-    width: 94%;
-    margin: auto;
-    margin-bottom: 50px;
+#heading-block h2 {
+    line-height:35px;
+    border-left: 3vw solid orangered;
+    border-right: 78vw solid orangered;
+    padding-left: 10px;
 }
-#categorybox img{
-    border: 2px solid black;
-    width: 250px;
+.catbox {
+    width: 252px;
     height: 300px;
-    /* overflow: hidden;
-    position: relative; */
+    float: left;
+    overflow: hidden;
+    position: relative;
+    margin: 2px;
+    border: 2px solid black;
+}
+
+.catbox span {
+    width: 100%;
+    background: black;
+    height: 35px;
+    line-height: 35px;
+    color: white;
+    display: block;
+    bottom: 0px;
+    position: absolute;
+    z-index: 999;
+    text-align: center;
+}
+.catbox img{
+    transition: all .5s ease;
+}
+.catbox:hover img {
+    transform: scale(1.2,1.2);
+    transition: all .5s ease;
+}
+.catbox:hover span {
+    font-weight: 500;
 }
 
