@@ -1,3 +1,86 @@
-/* *{
-    box-sizing: content-box;
-} */
+/* SubHeader Styles */
+#subheader {
+    display: inline;
+    color: white !important;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 5px 10px;
+}
+#subheadertitle {
+    display: inline;
+}
+#subheadertitle p{
+    display: inline;
+}
+#subheaderlinks {
+    display: inline;
+    float: right;
+}
+#subheaderlinks a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: white;
+    transition: all .5s ease;
+}
+#subheaderlinks a:last-child {
+    margin-right: 0px;
+}
+#subheaderlinks a:hover {
+    color: rgb(147, 144, 144);
+    transition: all .5s ease;
+}
+/* End of SubHeader Styles */
+#mainheader{
+    /* width: 100%; */
+    margin: 0
+}
+#mainheaderlogo h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    float: center;
+    padding-bottom:0px;
+    text-align: center;
+}
+#mainheadersearchbar {
+    padding-top: 16px;
+    padding-bottom:0px;
+}
+#mainheadersearchbar .form-control {
+    height: 44px;
+    border: 2px solid black;
+}
+#mainheadersearchbar .btn {
+    padding: 0px 30px;
+    border: 2px solid black;
+    font-weight: 500;
+}
+#mainheadercart {
+    margin-top: 26px;
+    margin-bottom: 0px;
+}
+#mainheadercart a{
+    border: 1px solid white;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin: 0 5px;
+    color: black;
+    font-weight: 500;
+    background-color: white;
+    border-radius: 3px;
+}
+/* Navigation bar Part */
+#navigationpart {
+    /* width: 100%; */
+    /* height: 200px; */
+    /* padding: 10px 0px; */
+    /* text-align: center; */
+    /* margin-left:90px;  */
+    margin: 0 auto;
+}
+#navigationbar a{
+    padding-left: 50px;
+    color: black;
+    font-weight: 500;
+    font-size: 14px;
+    
+}
