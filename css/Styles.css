@@ -1,0 +1,189 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    margin: 0;
+}
+
+/* Header Part*/
+#SubHeader {
+    padding: 5px 10px;
+    background-color: black;
+    font-weight: 00;
+    color: white;
+}
+#SubHeader a {
+    float: right;
+    margin: 0 5px;
+    text-decoration: none;
+    color: white;
+}
+#SubHeader:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+#trash {
+    width: 100%;
+    clear: both;
+}
+#MainHeader {
+    height: 100px;
+    background-color: orange;
+    display: flex;
+}
+#Logo {
+    padding-top: 10px;
+    width: 17%;
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    text-align: center;
+}
+#SearchBar {
+    width: 59%;
+}
+.input-group {
+    margin-top: 26px;
+    height: 45px;
+}
+.input-group .form-control {
+    font-size: 14px;
+    font-weight: 500;
+    box-shadow: 1px 1px 1px gray;
+}
+.input-group-append .btn {
+    font-size: 14px;
+    font-weight: 500;
+    box-shadow: 1px 1px 1px gray;
+}
+#CartDetails {
+    width: 24%;
+    margin-top: 40px;
+}
+#CartDetails a {
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    border-radius: 3px;
+    box-shadow: 1px 1px 2px gray;
+    padding: 10px 25px; 
+    margin-left: 21px
+}
+#NavigationBar {
+    background-color: orange;
+    padding: 10px 5px;
+    text-align: center;
+    box-shadow: 1px 2px 5px gray;
+}
+#NavigationBar a {
+    color: black;
+    text-decoration: none;
+    padding: 12px 24px;
+    font-size: 13px;
+/*    transition: all .5s ease;*/
+}
+#NavigationBar a:hover {
+/*    transition: a11 5s ease;*/
+    color: white;
+    background-color: black;
+}
+
+/*Main Article Part*/
+
+#MainArticle {
+    height: 500px;
+/*    background-color: gray;*/
+}
+
+/*Footer Part*/
+
+#footerbar {
+    padding-top: 18px;
+    height: 266px;
+/*    background-color: grey;*/
+}
+#footerbar #Ourstory{
+    width: 30%;
+    padding: 10px;
+    text-align: justify;
+    float: left;
+    background-color: #ddd;
+    height: 246px;
+    margin: 0px 0px 0px 4px;
+/*    color: white;*/
+}
+#Ourstory h4 {
+    text-align: left;
+}
+#OurProducts {
+    width: 39.1%;
+    float: left;
+    padding: 10px;
+    background-color: #ddd;
+    margin: 0px 2px;
+}
+#OurProducts h4 {
+    text-align: left;
+    margin-left: 0px;
+}
+#OurProducts li {
+    list-style-type:none;
+    text-align: left;
+    margin-left: 0px;
+}
+#ProductsPane1 {
+    width: 33.3%;
+    float: left;
+}
+#ProductsPane2 {
+    width: 33.3%;
+    float: right;
+}
+#ProductPane3 {
+    width: 33.3%;
+    float: right;
+}
+#SocialMedia {
+    width: 15%;
+    padding: 10px;
+    text-align: left;
+    float: left;
+    background-color: #ddd;
+    margin: 0 0px;
+}
+
+#SocialMedia li{
+    list-style-type: none;
+    text-align: left;
+}
+#footerbar:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+#OtherContent {
+    width: 15%;
+    padding: 10px;
+    background-color: #ddd;
+    float: left;
+    height: 246px;
+    margin: 0 2px;
+}
+#OtherContent li{
+    list-style-type: none;
+    text-align: left;
+}
+#EndFooter {
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-size: 14px;
+}
+#EndFooter p {
+    padding: 2px;
+    margin-bottom: 0px;
+}
+#EndFooter span {
+    font-size: 14px;
+    font-weight: 500;
+}
