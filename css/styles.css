@@ -125,6 +125,11 @@ nav a:hover {
     border: 2px solid gray;
     margin-bottom: 20px; 
 }
+.catbox:after {
+    display: block;
+    content: "";
+    clear: both;
+}
 
 .catbox span {
     width: 100%;
@@ -228,28 +233,81 @@ nav a:hover {
     transform: scale(1.03,1.03);
     transition: all .5s ease;
 }
-#faoter {
-    width: 100%;
-    /* display: inline-block; */
-    height: 250px;
-    background-color: #f5f5f5;
-    float: left;
+#footercontainer {
+    height: 300px;
+    background-color: #ddd;;
+    margin-top: 1580px;
+/*    position: relative;*/
+/*    bottom: 0px;*/   
 }
-.footer_sub1 {
-    float: left;
-    width: 40%;
+#aboutme {
+    width: 35%;
     padding: 10px;
     text-align: justify;
-    padding-bottom: 0px;
-}
-.footer_sub2 {
     float: left;
-    width: 15%;
-    /* background-color: red; */
-    text-align: center;
-    margin-top: 20px;
+/*    background-color: #ddd;*/
+    font-weight: 500;
+    font-size: 14px;
+}
+#aboutme h5 {
+    text-align: left;
+}
+#productsandservices {
+    width: 30%;
+    background-color: #ddd;
+    height: 300px;
+    float: left;
+    padding: 10px;
+    text-align: left;
+}
+#pane1 {
+    width: 50%;
+    float: left;
+}
+#pane1 li {
+    list-style-type: none;
+    font-weight: 500;
+    font-size: 14px;
+}
+#pane2 {
+    width: 50%;
+    float: left;
+}
+#pane2 li {
+    list-style-type: none;
+    font-weight: 500;
+    font-size: 14px;
+}
+#socialmedia {
+    width: 17.5%;
+    background-color: #ddd;
+    float: left;
+    height: 300px;
+    padding: 10px;
+    text-align: left;
+}
+#socialmedia li{
+    list-style-type: none;
+    font-size: 14px !important;
     font-weight: 500;
 }
-.footer_sub2 ul {
+#otherlinks {
+    padding: 10px;
+    width: 17.5%;
+    background-color: #ddd;
+    float: left;
+    height: 300px;
+    text-align: left;
+}
+#otherlinks li {
     list-style-type: none;
+    font-size: 14px;
+    font-weight: 500;
+}
+#finalbox {
+    z-index: 222;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 15px;
 }
